@@ -1,10 +1,5 @@
 # MQSim: A Simulator for Modern NVMe and SATA SSDs
 
-# 修改日志
-Catcher相较于ADVANCED不同点在于开启了是否每个事务进行bypass
-TSU_ZY相较于OUT_OF_ORDER区别在于对队列按照TLC闪存颗粒的写顺序进行排序
-TSU_ZY在bypass阶段将缓存写入的量上减去了
-
 ## Usage in Linux
 Run following commands:
 	
